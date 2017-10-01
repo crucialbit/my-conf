@@ -38,10 +38,18 @@ wget https://github.com/crucialbit/my-conf/blob/master/.tmux.conf -O ~/.tmux.con
 ```
 
 ## Colors
-<https://github.com/flazz/vim-colorschemes/tree/master/colors>
 ```vim
 colorscheme PaperColor
 ```
+<https://github.com/flazz/vim-colorschemes/tree/master/colors>
+
+Some color schemes I recommend:
+* Light & Dark
+  - `gruvbox`
+* Light
+  - `mac_classic`
+* Dark
+  - `Monokai`
 
 ## Install Plugin
 ```vim
