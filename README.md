@@ -19,7 +19,7 @@ Plugin 'scrooloose/nerdtree'
 Others settings:
 ```vim
 " Plugin settings
-colorscheme PaperColor
+colorscheme mac_classic
 " change to dark if you want to use dark mode, however some colorscheme may only
 " support either light or dark mode only
 set background=light
