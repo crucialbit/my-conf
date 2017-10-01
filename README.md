@@ -1,5 +1,5 @@
-# vimrc
-Quick way to initialize my Vim
+# my-conf
+Quick way to initialize my Vim and my tmux
 
 Included .vimrc:  
 <https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim>
@@ -28,13 +28,15 @@ map <C-n> :NERDTreeToggle<CR>
 set nu
 ```
 
-## Install Vundle and .vimrc
+## Quick Install
 ```terminal
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 wget https://raw.githubusercontent.com/crucialbit/vimrc/master/.vimrc -O ~/.vimrc
+wget https://github.com/crucialbit/my-conf/blob/master/.tmux.conf -O ~/.tmux.conf
 ```
 ## Install Plugin
 ```vim
+" Run in vim to install plugins
 :PluginInstall
 ```
 ## Disable auto comment
