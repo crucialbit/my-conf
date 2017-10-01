@@ -19,7 +19,8 @@ Others settings:
 ```vim
 " Plugin settings
 colorscheme PaperColor
-" change to dark if you want to use dark mode
+" change to dark if you want to use dark mode, however some colorscheme may only
+" support either light or dark mode only
 set background=light
 " Ctrl+N to toggle nerdtree
 map <C-n> :NERDTreeToggle<CR>
