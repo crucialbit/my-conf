@@ -36,6 +36,13 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 wget https://raw.githubusercontent.com/crucialbit/vimrc/master/.vimrc -O ~/.vimrc
 wget https://github.com/crucialbit/my-conf/blob/master/.tmux.conf -O ~/.tmux.conf
 ```
+
+## Available colorschemes
+<https://github.com/flazz/vim-colorschemes/tree/master/colors>
+```vim
+colorscheme PaperColor
+```
+
 ## Install Plugin
 ```vim
 " Run in vim to install plugins
