@@ -12,6 +12,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " My plugin
+Plugin 'flazz/vim-colorschemes'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'Raimondi/delimitMate'
 Plugin 'scrooloose/nerdtree'
@@ -33,7 +34,7 @@ filetype plugin indent on    " required
 
 " Plugin settings
 set t_Co=256
-colorscheme PaperColor
+colorscheme mac_classic
 set background=light
 map <C-n> :NERDTreeToggle<CR>
 
