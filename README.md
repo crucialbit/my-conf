@@ -8,9 +8,12 @@ Included Plugins:
 ```vim
 Plugin 'VundleVim/Vundle.vim' " Plugin manager
 " My plugin
-Plugin 'NLKNguyen/papercolor-theme' " Theme
-Plugin 'Raimondi/delimitMate' " Auto close braces
-Plugin 'scrooloose/nerdtree' " File explorer
+" Theme
+Plugin 'NLKNguyen/papercolor-theme'
+" Auto close brackets
+Plugin 'Raimondi/delimitMate'
+" File explorer
+Plugin 'scrooloose/nerdtree'
 ```
 Others settings:
 ```vim
