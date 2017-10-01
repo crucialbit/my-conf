@@ -34,7 +34,7 @@ set nu
 ```terminal
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 wget https://raw.githubusercontent.com/crucialbit/vimrc/master/.vimrc -O ~/.vimrc
-wget https://github.com/crucialbit/my-conf/blob/master/.tmux.conf -O ~/.tmux.conf
+wget https://raw.githubusercontent.com/crucialbit/my-conf/master/.tmux.conf -O ~/.tmux.conf
 ```
 
 ## Install Plugin
