@@ -19,7 +19,9 @@ Others settings:
 ```vim
 " Plugin settings
 colorscheme PaperColor
+" change to dark if you want to use dark mode
 set background=light
+" Ctrl+N to toggle nerdtree
 map <C-n> :NERDTreeToggle<CR>
 
 " [+] Line number
