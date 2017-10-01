@@ -37,7 +37,14 @@ wget https://raw.githubusercontent.com/crucialbit/vimrc/master/.vimrc -O ~/.vimr
 wget https://github.com/crucialbit/my-conf/blob/master/.tmux.conf -O ~/.tmux.conf
 ```
 
+## Install Plugin
+```vim
+" Run in vim to install plugins
+:PluginInstall
+```
+
 ## Colors
+You can use all these color schemes after installing the plugins
 ```vim
 colorscheme PaperColor
 ```
@@ -51,11 +58,6 @@ Some color schemes I recommend:
 * Dark
   - `Monokai`
 
-## Install Plugin
-```vim
-" Run in vim to install plugins
-:PluginInstall
-```
 ## Disable auto comment
 Temp
 ```vim
