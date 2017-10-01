@@ -9,6 +9,7 @@ Included Plugins:
 Plugin 'VundleVim/Vundle.vim' " Plugin manager
 " My plugin
 " Theme
+Plugin 'flazz/vim-colorschemes'
 Plugin 'NLKNguyen/papercolor-theme'
 " Auto close brackets
 Plugin 'Raimondi/delimitMate'
