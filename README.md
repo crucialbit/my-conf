@@ -37,7 +37,7 @@ wget https://raw.githubusercontent.com/crucialbit/vimrc/master/.vimrc -O ~/.vimr
 wget https://github.com/crucialbit/my-conf/blob/master/.tmux.conf -O ~/.tmux.conf
 ```
 
-## Available colorschemes
+## Colors
 <https://github.com/flazz/vim-colorschemes/tree/master/colors>
 ```vim
 colorscheme PaperColor
