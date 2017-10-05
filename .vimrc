@@ -32,13 +32,13 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-" [+] Plugin settings
+" [+] Custom settings
+" Force detecting .md files as Markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 set t_Co=256
-colorscheme mac_classic
-set background=light
+colorscheme gruvbox
+set background=dark
 map <C-n> :NERDTreeToggle<CR>
-
-" [+] Line number
 set nu
 
 " [+] Basic vimrc
