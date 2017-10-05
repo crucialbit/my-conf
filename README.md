@@ -46,8 +46,8 @@ wget https://raw.githubusercontent.com/crucialbit/my-conf/master/.tmux.conf -O ~
 
 ## Colors
 You can use all these color schemes after installing the plugins
-[NLKNguyen/papercolor-theme](https://github.com/NLKNguyen/papercolor-theme)
-[vim-colorschemes](https://github.com/flazz/vim-colorschemes/tree/master/colors)
+* [NLKNguyen/papercolor-theme](https://github.com/NLKNguyen/papercolor-theme)
+* [vim-colorschemes](https://github.com/flazz/vim-colorschemes/tree/master/colors)
 
 Some color schemes I recommend:
 * Light & Dark
