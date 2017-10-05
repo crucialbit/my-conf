@@ -19,10 +19,11 @@ Plugin 'scrooloose/nerdtree'
 Others settings:
 ```vim
 " Plugin settings
-colorscheme mac_classic
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+colorscheme gruvbox
 " change to dark if you want to use dark mode, however some colorscheme may only
 " support either light or dark mode only
-set background=light
+set background=dark
 " Ctrl+N to toggle nerdtree
 map <C-n> :NERDTreeToggle<CR>
 
@@ -45,16 +46,14 @@ wget https://raw.githubusercontent.com/crucialbit/my-conf/master/.tmux.conf -O ~
 
 ## Colors
 You can use all these color schemes after installing the plugins
-```vim
-colorscheme PaperColor
-```
-<https://github.com/flazz/vim-colorschemes/tree/master/colors>
+[NLKNguyen/papercolor-theme](https://github.com/NLKNguyen/papercolor-theme)
+[vim-colorschemes](https://github.com/flazz/vim-colorschemes/tree/master/colors)
 
 Some color schemes I recommend:
 * Light & Dark
   - `gruvbox`
 * Light
-  - `mac_classic`
+  - `PaperColor`
 * Dark
   - `Monokai`
 
